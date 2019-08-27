@@ -1,0 +1,16 @@
+Directory structure of 
+.
+├── builds
+│   └── debian9_insurgency
+│       └── Vagrantfile
+└── provisioning_files
+    ├── debian
+    └── steamcmd_insurgency
+        ├── insurgency_launch
+        ├── insurgency_update
+        ├── server_configuration
+        │   ├── Admins.txt
+        │   ├── Game.ini
+        │   ├── MapCycle.txt
+        │   └── server.cfg
+        └── steamcmd_581330.service
