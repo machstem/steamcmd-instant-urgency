@@ -1,0 +1,2 @@
+## /home/steam/steamcmd/insurgency/Insurgency/Saved/Config/LinuxServer/Admins.txt
+76561197969457723
