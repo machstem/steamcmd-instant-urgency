@@ -1,4 +1,6 @@
-Directory structure of 
+## This is the basic layout for a vagrant+hyperv file structure, on a Windows operating system.
+## Insurgency has a server appid of 581330
+
 .
 ├── builds
 │   └── debian9_insurgency
@@ -14,3 +16,21 @@ Directory structure of
         │   ├── MapCycle.txt
         │   └── server.cfg
         └── steamcmd_581330.service
+
+## This sort of directory structure can be used to help build several steamcmd servers,
+## as well as containing any specific configuration for your game
+## e.g. Factorio has the server appid of 427520
+
+.
+├── builds
+│   └── debian9_factorio
+│       └── Vagrantfile
+└── provisioning_files
+    ├── debian
+    └── steamcmd_factorio
+        ├── factorio_launch
+        ├── factorio_update
+        ├── server_configuration
+        │   ├── saves
+        │       ├── factorio_world.zip
+        └── steamcmd_427520.service
