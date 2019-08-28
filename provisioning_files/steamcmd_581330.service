@@ -1,6 +1,6 @@
 ## /etc/systemd/system/steamcmd_581330.service
 [Unit]
-Description=machstem's dedicated server
+Description=My steamcmd Insurgency Sandstorm Server
 After=network.target
 
 [Service]
