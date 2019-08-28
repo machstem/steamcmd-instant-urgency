@@ -1,0 +1,3 @@
+#!/bin/bash
+
+/home/steam/steamcmd/insurgency/Insurgency/Binaries/Linux/InsurgencyServer-Linux-Shipping Farmhouse?Scenario=Scenario_Farmhouse_Checkpoint_Insurgents?Port=27102 -QueryPort=27131 -hostname="mach's server" -GSLTToken=A157871E8477CEC646939D3DFB6BF602 -GameStats

@@ -1,0 +1,6 @@
+@ShutdownOnFailedCommand 1 //set to 0 if updating multiple servers at once
+@NoPromptForPassword 1
+login anonymous
+force_install_dir /home/steam/steamcmd/insurgency/
+app_update 581330
+quit

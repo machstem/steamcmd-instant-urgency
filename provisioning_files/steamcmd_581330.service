@@ -1,0 +1,19 @@
+## /etc/systemd/system/steamcmd_581330.service
+[Unit]
+Description=machstem's dedicated server
+After=network.target
+
+[Service]
+User=steam
+WorkingDirectory=/home/steam/steamcmd/
+
+ExecStartPre=/home/steam/steamcmd/steamcmd.sh +runscript /home/steam/steamcmd/insurgency_update
+ExecStart=/home/steam/steamcmd/insurgency_launch
+
+## TimeoutStartSec=infinity
+## Restart=always
+LimitNOFILE=4096
+
+[Install]
+WantedBy=multi-user.target
+## END OF FILE 
