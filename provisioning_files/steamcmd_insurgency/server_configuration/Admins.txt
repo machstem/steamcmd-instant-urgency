@@ -1,2 +1,5 @@
 ## /home/steam/steamcmd/insurgency/Insurgency/Saved/Config/LinuxServer/Admins.txt
-76561197969457723
+## Find the <steamID64> value for your STEAM account at https://steamid.io/ and searching for your STEAM username.
+# e.g. 7111154789455433
+
+<replace with steamID64>
