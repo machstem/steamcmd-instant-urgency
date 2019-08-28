@@ -1,3 +1,13 @@
 #!/bin/bash
+##  In order to advertise your server on the Insurgency Sandstorm community servers,
+##  you must first get a game token from STEAM and use it with the 
+##  -GSLTToken=################################ -GameStats parameters
+##  e.g. A157871E8478DF94R6939D3RE31BF602
+##
+##  For more information, visit:
+##  https://steamcommunity.com/dev/managegameservers
+##  
+##  You can adjust your server parameters using this guide:
+##  https://docs.google.com/document/d/1GDLg5p9jjeIya7EgBk0ibzDtDlyQ-U_jpspOzby-JmM/edit#
 
-/home/steam/steamcmd/insurgency/Insurgency/Binaries/Linux/InsurgencyServer-Linux-Shipping Farmhouse?Scenario=Scenario_Farmhouse_Checkpoint_Insurgents?Port=27102 -QueryPort=27131 -hostname="mach's server" -GSLTToken=A157871E8477CEC646939D3DFB6BF602 -GameStats
+/home/steam/steamcmd/insurgency/Insurgency/Binaries/Linux/InsurgencyServer-Linux-Shipping Farmhouse?Scenario=Scenario_Farmhouse_Checkpoint_Insurgents?Port=27102 -QueryPort=27131 -hostname="your server name" -GSLTToken=A157871E8478DF94R6939D3RE31BF602 -GameStats
