@@ -32,5 +32,5 @@
         ├── factorio_update
         ├── server_configuration
         │   ├── saves
-        │       ├── factorio_world.zip
+        │       └──factorio_world.zip
         └── steamcmd_427520.service
