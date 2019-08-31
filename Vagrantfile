@@ -17,9 +17,10 @@ Vagrant.configure("2") do |config|
 		hyperv.memory = 1500
 		hyperv.maxmemory = 1500
 		hyperv.cpus = 4
+## Allows HyperV to start this virtual machine on host startup
 		hyperv.auto_start_action = "Start"
 		hyperv.mac ="00155d080208"
-	     ## Optional; uses hyperv's disk differencing technology
+## Optional; uses hyperv's disk differencing technology
 		hyperv.linked_clone = true
 	end
 ## Use Linux Intergration Services (LIS) through the hyperv daemon
